@@ -1,4 +1,3 @@
 {
-    "directory" : "assets/bower",
-    "protocol"  : "https"
+    "directory": "assets/bower"
 }

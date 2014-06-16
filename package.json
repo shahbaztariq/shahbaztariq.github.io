@@ -1,0 +1,23 @@
+{
+    "name": "Ssst!",
+    "description": "SS & ST Ltd Official Website and Blog",
+    "version": "0.0.1",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "bower": "~1.3.5",
+        "grunt": "~0.4.5",
+        "grunt-contrib-uglify": "~0.2.7",
+        "grunt-contrib-concat": "~0.3.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://shahbaztariq@github.com/shahbaztariq/shahbaztariq.github.io.git"
+    },
+    "author": "Shahbaz Tariq",
+    "license": "BSD-2-Clause",
+    "bugs": {
+        "url": "https://github.com/shahbaztariq/shahbaztariq.github.io/issues"
+    },
+    "homepage": "https://shahbaztariq.github.io"
+}
