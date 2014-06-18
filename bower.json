@@ -1,9 +1,10 @@
 {
-    "name": "Ssst!",
-    "version": "0.0.1",
-    "dependencies": {
-        "jquery": "1.11.1",
-        "bootswatch": "3.1.1+1"
-    },
-    "private": true
+  "name": "Ssst!",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "1.11.1",
+    "pure": "~0.5.0",
+    "font-awesome": "~4.1.0"
+  },
+  "private": true
 }

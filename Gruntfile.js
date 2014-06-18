@@ -36,28 +36,17 @@ module.exports = function(grunt) {
             js: {
                 src: [
                     'bower_components/jquery/dist/jquery.min.js',
-                    'bower_components/bootstrap/dist/js/bootstrap.min.js',
                     'build/js/scripts.js'
                 ],
                 dest: 'assets/js/main.js'
             },
             css: {
                 src: [
-                    'bower_components/bootswatch/united/bootstrap.min.css',
+                    'bower_components/pure/pure-min.css',
+                    'bower_components/pure/grids-responsive-min.css',
                     'build/css/styles.css'
                 ],
                 dest: 'assets/css/main.css'
-            }
-        },
-        
-        /* concat */
-        copy: {
-            fonts: {
-                expand: true,
-                flatten: true,
-                src: ['bower_components/bootstrap/dist/fonts/*'],
-                dest: 'assets/fonts/',
-                filter: 'isFile'
             }
         },
         
@@ -73,10 +62,9 @@ module.exports = function(grunt) {
     // load tasks
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
     
     // default tasks
-    grunt.registerTask('default', ['uglify', 'sass', 'concat', 'copy']);
+    grunt.registerTask('default', ['uglify', 'sass', 'concat']);
 };
