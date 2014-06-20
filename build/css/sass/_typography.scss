@@ -1,7 +1,27 @@
 html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
     font-family: 'Ubuntu', sans-serif;
+    color: $text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 a {
+    color: $a-colour;
     text-decoration: none;
+    
+    &:hover {
+        color: $a-colour-hover;
+        text-decoration: underline;
+    }
+    
+    &:active {
+        color: $a-colour-active;
+    }
+    
+    &:visited {
+        color: $a-colour-visited;
+    }
 }

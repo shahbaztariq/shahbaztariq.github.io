@@ -1,0 +1,13 @@
+body {
+    background: $background-darkest;
+}
+
+.wrapper {
+    background: $background-lite;
+}
+
+.page {
+    max-width: 1280px;
+    min-height: 480px;
+    margin:0 auto;
+}

@@ -1,0 +1,35 @@
+footer.footer {
+    margin:0 auto;
+    max-width: 1280px;
+    
+    .copyright {
+        margin:2em;
+        text-align: center;
+        color:$text-liter;
+    }
+    
+    .social-links {
+        margin:2em;
+        padding: 0;
+        text-align: center;
+        list-style: none;
+        
+        li {
+            display: inline-block;
+            
+            a {
+                display: inline-block;
+                color:#ddd;
+                text-decoration: none;
+                
+                i {
+                    font-size: 1.5em;
+                }
+                
+                &:hover {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

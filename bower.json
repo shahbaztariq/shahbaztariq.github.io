@@ -4,7 +4,8 @@
   "dependencies": {
     "jquery": "1.11.1",
     "pure": "~0.5.0",
-    "font-awesome": "~4.1.0"
+    "font-awesome": "~4.1.0",
+    "imgLiquid": "~0.9.944"
   },
   "private": true
 }

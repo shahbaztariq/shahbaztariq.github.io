@@ -36,6 +36,7 @@ module.exports = function(grunt) {
             js: {
                 src: [
                     'bower_components/jquery/dist/jquery.min.js',
+                    'bower_components/imgLiquid/js/imgLiquid-min.js',
                     'build/js/scripts.js'
                 ],
                 dest: 'assets/js/main.js'
@@ -53,8 +54,12 @@ module.exports = function(grunt) {
         /* watch */
         watch: {
             css: {
-                files: 'build/css/sass/**.*',
+                files: 'build/css/sass/**/**.*',
                 tasks: ['sass', 'concat:css']
+            },
+            js : {
+                files: 'build/js/_scripts/**/**.*',
+                tasks: ['uglify', 'concat:js']
             }
         }
     });

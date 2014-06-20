@@ -1,0 +1,1 @@
+!function(a,b){var c=b.ssst={};c.setLocation=function(a){window.location.href=a},a(".post-image").imgLiquid()}(jQuery,this);
