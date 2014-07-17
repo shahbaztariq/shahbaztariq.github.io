@@ -1,0 +1,19 @@
+.pure-button {
+    
+    &:hover {
+        text-decoration:none;
+    }
+    
+    &.btn-main {
+        color:#fff;
+        background: $main-colour;
+        
+        &:hover {
+            background: $main-colour-dark;
+        }
+        
+        &:active {
+            background: $main-colour-darker;
+        }
+    }
+}

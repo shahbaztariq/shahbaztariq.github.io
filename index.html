@@ -1,58 +1,33 @@
 ---
 layout: default
-title: Ssst!
-description: "This is the description!"
-keywords: "magento, magento developer, magento help, php, ecommerce, developer, devops, magento contractor"
+title: "Ssst!"
+description: "Shahbaz Tariq - Magento Developer and Consultant."
+keywords: "magento, magento developer, magento help, php, ecommerce, developer, devops, magento contractor php development, php Developer   "
 ---
 
-<section class="posts">
-    <article class="post">
+<section class="container posts-container">
+    {% for post in site.posts %}
+        <article class="post">
         
-        <div class="post-image" onclick="ssst.setLocation('#');">
-            <img src="http://i.imgur.com/GD3w6.jpg" title="" alt="" />
-        </div>
-        
-        <header class="post-header">
-            <h3 class="post-date">20th June, 2014</h3>
-            <h2 class="post-title">
-                <a href="">Sed et massa id erat pulvinar mattis sed quis sapien.</a>
-            </h2>
-        </header>
-        
-        <div class="post-excerpt">
-            <p>
-                Mauris viverra <a href="sss">venenatis commodo</a>. Curabitur rutrum posuere eros sit amet sagittis. Nullam eget ipsum sit amet nisl condimentum ullamcorper.
-            </p>
+            {% if post.image %}
+                <div class="post-image" onclick="ssst.setLocation('{{ post.url }}');">
+                    <img src="{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" />
+                </div>
+            {% endif %}
             
-            <p>
-                Vestibulum dui metus, ullamcorper at varius sed, tincidunt id mauris. Praesent vel turpis a eros dignissim vulputate vitae id purus.
-            </p>
-            <p class="post-read-more">
-                <a href="">Read more...</a>
-            </p>
-        </div>
-    </article>
-    
-    <article class="post">
-        
-        <header class="post-header">
-            <h3 class="post-date">20th June, 2014</h3>
-            <h2 class="post-title">
-                <a href="">Sed et massa id erat pulvinar mattis sed quis sapien.</a>
-            </h2>
-        </header>
-        
-        <div class="post-excerpt">
-            <p>
-                Mauris viverra <a href="sss">venenatis commodo</a>. Curabitur rutrum posuere eros sit amet sagittis. Nullam eget ipsum sit amet nisl condimentum ullamcorper.
-            </p>
+            <header class="post-header">
+                <h3 class="post-date">{{ post.date | date: "%B %d, %Y" }}</h3>
+                <h2 class="post-title">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </h2>
+            </header>
             
-            <p>
-                Vestibulum dui metus, ullamcorper at varius sed, tincidunt id mauris. Praesent vel turpis a eros dignissim vulputate vitae id purus.
-            </p>
-            <p class="post-read-more">
-                <a href="">Read more...</a>
-            </p>
-        </div>
-    </article>
+            <div class="post-excerpt">
+                {{ post.excerpt }}
+                <p class="post-read-more">
+                    <a href="{{ post.url }}" class="pure-button btn-main">Read more <i class="fa fa-angle-double-right"></i></a>
+                </p>
+            </div>
+        </article>
+    {% endfor %}
 </section>
