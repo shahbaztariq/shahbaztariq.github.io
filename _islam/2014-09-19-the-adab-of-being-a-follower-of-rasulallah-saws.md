@@ -12,6 +12,9 @@ subtitle: "Shukur And Hamd"
 
 tags: islam hadith
 category: islam
+
+keywords: islam follower believer rasool rasulallah
+description: The qualities and etiquette of being a follow of our Prophet (SAWS)
 ---
 
 {% include post/lead.html %}
