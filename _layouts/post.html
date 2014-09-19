@@ -7,7 +7,7 @@
             <article class="post">
                 {% if post.image %}
                     <div class="post-image" onclick="ssst.setLocation('{{ post.url }}');">
-                        <img src="{{ page.image }}" title="{{ post.title }}" alt="{{ post.title }}" />
+                        <img src="{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" />
                     </div>
                 {% endif %}
                 
