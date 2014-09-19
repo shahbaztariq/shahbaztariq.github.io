@@ -4,18 +4,21 @@
 <div class="page page-one-column pure-g">
     <div class="column main-column pure-u-1">
         <section class="container post-container">
-            <article class="post">
-                {% if post.image %}
-                    <div class="post-image" onclick="ssst.setLocation('{{ post.url }}');">
-                        <img src="{{ page.image }}" title="{{ post.title }}" alt="{{ post.title }}" />
+            <article class="post islam-post">
+                {% if page.image %}
+                    <div class="post-image">
+                        <img src="{{ page.image }}" title="{{ page.title }}" alt="{{ page.title }}" />
                     </div>
                 {% endif %}
                 
                 <header class="post-header">
-                    <h3 class="post-date">{{ page.date | date: "%B %d, %Y" }}</h3>
+                    <h3 class="post-date">{{ page.date }}</h3>
                     <h2 class="post-title">
                         <a href="{{ page.url }}">{{ page.title }}</a>
                     </h2>
+                    <h3 class="post-subtitle">
+                        {{ page.subtitle }}
+                    </h3>
                 </header>
             
                 <div class="post-content">
@@ -29,5 +32,3 @@
 </div>
 
 {% include footer.html %}
-
-

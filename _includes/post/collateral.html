@@ -1,0 +1,13 @@
+<div class="post-collateral">
+    <ul>
+        <li><i class="fa fa-pencil" title="Author"></i> Shahbaz Tariq</li>
+        
+        {% if page.categories %}
+            <li><i class="fa fa-list" title="categories"></i> {{ page.categories }}</li>
+        {% endif %}
+        
+        {% if page.tags %}
+            <li><i class="fa fa-tags" title="Tags"></i> {{ page.tags }}</li>
+        {% endif %}
+    </ul>
+</div>

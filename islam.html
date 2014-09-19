@@ -1,0 +1,45 @@
+---
+layout: default
+title: "Islam - Ssst!"
+description: "Shahbaz Tariq - Magento Developer and Consultant."
+keywords: "islam, hadiths, sunnah, muslim"
+---
+
+<section class="container posts-container">
+    {% for post in site.islam %}
+        <article class="post post-islam">
+        
+            {% if post.image %}
+                <div class="post-image" onclick="ssst.setLocation('{{ post.url }}');">
+                    <img src="{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" />
+                </div>
+            {% endif %}
+            
+            <header class="post-header">
+                <h3 class="post-date">{{ post.date }}</h3>
+                <h2 class="post-title">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </h2>
+            </header>
+            
+            <div class="post-excerpt">
+                
+                {% if post.excerpt %}
+                    {{ post.excerpt }}
+                {% endif %}
+                
+                {% if post.lead %}
+                    <p class="lead">{{ post.lead }}</p>
+                {% endif %}
+                
+                {% if post.citation %}
+                    <cite class="citation">{{ post.citation }}</cite>
+                {% endif %}
+                
+                <p class="post-read-more">
+                    <a href="{{ post.url }}" class="pure-button btn-main">Read more <i class="fa fa-angle-double-right"></i></a>
+                </p>
+            </div>
+        </article>
+    {% endfor %}
+</section>

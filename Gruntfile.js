@@ -51,15 +51,33 @@ module.exports = function(grunt) {
             }
         },
         
+        /* jekyll */
+        jekyll: {
+            dist: {
+                
+            }
+        },
+        
         /* watch */
         watch: {
             css: {
                 files: 'build/css/sass/**/**.*',
-                tasks: ['sass', 'concat:css']
+                tasks: ['sass', 'concat:css', 'jekyll']
             },
             js : {
                 files: 'build/js/_scripts/**/**.*',
-                tasks: ['uglify', 'concat:js']
+                tasks: ['uglify', 'concat:js', 'jekyll']
+            },
+            html: {
+                files: [
+                    '_includes/**/**.html',
+                    '_layouts/**/**.html',
+                    '_posts/**/**.md',
+                    '_islam/**/**.md',
+                    'islam.html',
+                    'index.html'
+                ],
+                tasks: ['jekyll']
             }
         }
     });
@@ -69,7 +87,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-jekyll');
     
     // default tasks
-    grunt.registerTask('default', ['uglify', 'sass', 'concat']);
+    grunt.registerTask('default', ['uglify', 'sass', 'concat', 'jekyll']);
 };
