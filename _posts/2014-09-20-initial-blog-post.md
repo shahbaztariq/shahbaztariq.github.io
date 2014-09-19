@@ -1,5 +1,6 @@
 ---
 layout: post
+image: https://cloud.githubusercontent.com/assets/2587579/4343424/6b585588-4056-11e4-8b3b-eb6dc68981a2.jpg
 title: A repository to dump my thoughts and ideas.
 category: general misc
 tags: general introduction
