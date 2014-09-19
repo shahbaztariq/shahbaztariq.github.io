@@ -5,9 +5,9 @@
     <div class="column main-column pure-u-1">
         <section class="container post-container">
             <article class="post">
-                {% if post.image %}
-                    <div class="post-image" onclick="ssst.setLocation('{{ post.url }}');">
-                        <img src="{{ post.image }}" title="{{ post.title }}" alt="{{ post.title }}" />
+                {% if page.image %}
+                    <div class="post-image" onclick="ssst.setLocation('{{ page.url }}');">
+                        <img src="{{ page.image }}" title="{{ page.title }}" alt="{{ page.title }}" />
                     </div>
                 {% endif %}
                 
