@@ -12,6 +12,9 @@ subtitle: "Shukur And Hamd"
 
 tags: islam hadith
 category: islam
+
+keywords: islam hamd muslim alhamdolillah alhumdolillah praising thankful greatful
+description: Importance of Hamd (praise), being thankful to Allah in the good and the bad times.
 ---
 
 {% include post/lead.html %}
