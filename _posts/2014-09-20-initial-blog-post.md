@@ -4,6 +4,9 @@ image: https://cloud.githubusercontent.com/assets/2587579/4343424/6b585588-4056-
 title: A repository to dump my thoughts and ideas.
 category: general misc
 tags: general introduction
+
+keywords: shahbaz tariq, php, application developer, magento developer
+description: A repository to dump my thoughts and ideas.
 ---
 
 ### Who is Shahbaz Tariq? ###
