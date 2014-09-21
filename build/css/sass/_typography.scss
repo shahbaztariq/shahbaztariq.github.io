@@ -30,4 +30,8 @@ blockquote {
     border-left: 2px solid $main-colour-accent-dark;
     padding:0.2em 1em;
     background: $main-colour-accent;
+    
+    blockquote {
+        background: #fff;
+    }
 }
