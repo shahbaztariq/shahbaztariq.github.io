@@ -10,7 +10,7 @@ keywords: "islam, hadiths, sunnah, muslim"
         <article class="post post-islam">
         
             {% if post.image %}
-                <div class="post-image" onclick="ssst.setLocation('{{ post.url }}');" data-source="{{ post.image }}" data-title="{{ post.title }}"></div>
+                <div class="post-image lazy-load" onclick="ssst.setLocation('{{ post.url }}');" data-source="{{ post.image }}" data-title="{{ post.title }}"></div>
             {% endif %}
             
             <header class="post-header">

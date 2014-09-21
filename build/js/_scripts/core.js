@@ -5,11 +5,13 @@
     ssst.setLocation = function(location) {
         window.location.href = location;
     };
+    
+    $('.liquidify').imgLiquid();
 }(jQuery, this));
 
 (function($){
     // cache
-    var images  = $(".post-image");
+    var images  = $(".lazy-load");
     var $window = $(window);
     
     /**
@@ -97,9 +99,6 @@
         // set title
         img.attr('title', title);
         
-        // set load function
-        img.load(function(){ _onLoad(img) });
-        
         // set image source
         img.attr('src', source);
         
@@ -117,17 +116,6 @@
         
         // set has image
         $image.data('has_image', true);
-    };
-    
-    /**
-     * on img load
-     *
-     * @param  {jQuery} img
-     *
-     * @return {void}
-     */
-    var _onLoad = function (img) {
-        
     };
     
     /**

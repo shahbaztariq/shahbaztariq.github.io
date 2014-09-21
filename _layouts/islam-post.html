@@ -4,9 +4,11 @@
 <div class="page page-one-column pure-g">
     <div class="column main-column pure-u-1">
         <section class="container post-container">
-            <article class="post islam-post">
+            <article class="post post-view islam-post">
                 {% if page.image %}
-                    <div class="post-image" onclick="ssst.setLocation('{{ page.url }}');" data-source="{{ page.image }}" data-title="{{ page.title }}"></div>
+                    <div class="post-image liquidify" onclick="ssst.setLocation('{{ page.url }}');">
+                        <img src="{{ page.image }}" title="{{ page.title }}" alt="{{ page.title }}" />
+                    </div>
                 {% endif %}
                 
                 <header class="post-header">
