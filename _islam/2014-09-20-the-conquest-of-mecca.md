@@ -6,6 +6,7 @@ lead: "Indeed, those who pledge allegiance to you, [O Muhammad] - they are actua
 citation: "<a target=\"_blank\" href=\"http://quran.com/48/10\">Surah Al-Fath, Ayah 10</a>"
 
 image: "/assets/images/islam/kaaba.jpg"
+facebook_image: "/assets/images/islam/facebook/kaaba.jpg"
 
 title: "The Conquest Of Mecca"
 

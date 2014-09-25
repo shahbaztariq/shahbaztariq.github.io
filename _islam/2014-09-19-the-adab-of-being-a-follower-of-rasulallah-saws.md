@@ -6,6 +6,7 @@ lead: "There has certainly come to you a Messenger from among yourselves. Grievo
 citation: "<a target=\"_blank\" href=\"http://quran.com/9/128\">Surah Tawba, Ayah 128</a>"
 
 image: "/assets/images/islam/masjid-nabi.jpg"
+facebook_image: "/assets/images/islam/facebook/masjid-nabi.jpg"
 
 title: "The Adab (Etiquette) Of Being A Follower Of Rasulallah (SAWS)"
 subtitle: "Shukur And Hamd"

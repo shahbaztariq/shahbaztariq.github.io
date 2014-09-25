@@ -6,6 +6,7 @@ lead: "Every good deed started without Hamd (praise) to Allah will lack Barakah.
 citation: "Hadith-i Shareef, Bayhaqi, Sunan Kubra"
 
 image: "/assets/images/islam/alhamdolillah.jpg"
+facebook_image: "/assets/images/islam/facebook/alhamdolillah.jpg"
 
 title: "Importance of Hamd"
 subtitle: "Shukur And Hamd"
