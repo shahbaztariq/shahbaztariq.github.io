@@ -6,7 +6,6 @@ lead: "Surely Allah gifts the world for those who work for their Akhirah (Hereaf
 citation: "Hadith-i Shareef, Kuzaa'i, Shihaab al-Ahbar"
 
 image: "/assets/images/islam/quran.jpg"
-facebook_image: "/assets/images/islam/facebook/quran.jpg"
 
 title: "The Madhhabs"
 subtitle: "A Brief Introduction To Madhhabs"

@@ -6,7 +6,6 @@ lead: "These two people will be envied: a person who spends his nights and days 
 citation: "Hadith-i Shareef, Sahih al-Bukhari"
 
 image: "/assets/images/islam/faith.jpg"
-facebook_image: "/assets/images/islam/facebook/faith.jpg"
 
 title: "Articles Of Faith"
 
