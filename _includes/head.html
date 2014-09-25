@@ -19,9 +19,11 @@
         <!-- for Facebook -->          
         <meta property="og:title" content="{{ page.title }}" />
         <meta property="og:type" content="article" />
+        <meta property="article:author" content="https://www.linkedin.com/in/shahbaztariq" />
+        <meta property="article:publisher" content="https://www.linkedin.com/in/shahbaztariq" />
         
-        {% if page.facebook_image %}
-            <meta property="og:image" content="{{ site.base_url }}{{ page.facebook_image }}" />
+        {% if page.image %}
+            <meta property="og:image" content="{{ site.base_url }}{{ page.image }}" />
         {% endif %}
         
         <meta property="og:url" content="{{ site.base_url }}{{ page.url }}" />
@@ -32,8 +34,8 @@
         <meta name="twitter:title" content="{{ page.title }}" />
         <meta name="twitter:description" content="{{ page.description }}" />
         
-        {% if page.facebook_image %}
-            <meta name="twitter:image" content="{{ site.base_url }}{{ page.facebook_image }}" />
+        {% if page.image %}
+            <meta name="twitter:image" content="{{ site.base_url }}{{ page.image }}" />
         {% endif %}
         
         <!--[if lt IE 9]>
