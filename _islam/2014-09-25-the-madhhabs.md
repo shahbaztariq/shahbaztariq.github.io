@@ -21,8 +21,6 @@ description: Articles Of Faith
 
 ***
 
-{% include snippets/saws.html %}
-
 Allah {% include snippets/swt.html %} has ordered Alims as follows:
 
 > Let them work, let them be troubled, may they find hidden subjects from Allah's Qur'an and Rasulallah's {% include snippets/saws.html %} words with which they act upon, and they may teach others.
@@ -35,6 +33,6 @@ After Rasulallah {% include snippets/saws.html %} passed away, the As'haab saw m
 
 Later, Muslims multiplied. Problems confronted and the increasing numbers of Muslims were not as knowledgeable. In this situation it was down to the Alims of the time to give up everything else and give all they had in order to go through the Qur'an and Hadith and make decisions, give Fatwah on certain beliefs and acts in Islam.
 
-Every Alim did as much as he could, wrote down down and taught Muslims what they had uncovered. Certain tribes began to follow certain Alims. Some of them followed Imam Abu Hanife, Imam Malik, Imam Shafi'i, Imam Ahmad Bin Hanbel, some followed Sufyan-i Sevri and Davud-i Zahiri, etc.
+Every Alim did as much as he could, wrote down and taught Muslims what they had uncovered. Certain tribes began to follow certain Alims. Some of them followed Imam Abu Hanife, Imam Malik, Imam Shafi'i, Imam Ahmad Bin Hanbel, some followed Sufyan-i Sevri and Davud-i Zahiri, etc.
 
 Until now, those tribes have been acting upon the teachings of the madhhab they follow. All of these madhhabs are equal in belief as they are all Ahl al-Sunnah wa'l-Jamaah. The difference between them is only the small difference in the actions that they perform. That difference is with the permission of Allah {% include snippets/swt.html %}. Any Muslim who follows one of these paths will be led to Jannah.

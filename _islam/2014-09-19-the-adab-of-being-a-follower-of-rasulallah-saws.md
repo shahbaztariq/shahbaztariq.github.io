@@ -8,7 +8,6 @@ citation: "<a target=\"_blank\" href=\"http://quran.com/9/128\">Surah Tawba, Aya
 image: "/assets/images/islam/masjid-nabi.jpg"
 
 title: "The Adab (Etiquette) Of Being A Follower Of Rasulallah (SAWS)"
-subtitle: "Shukur And Hamd"
 
 tags: islam hadith
 category: islam
