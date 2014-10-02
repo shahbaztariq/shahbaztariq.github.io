@@ -14,7 +14,7 @@ tags: islam
 category: islam
 
 keywords: islam, faith, belief
-description: Articles Of Faith
+description: "A Brief Introduction To Madhhabs"
 ---
 
 {% include post/lead.html %}
