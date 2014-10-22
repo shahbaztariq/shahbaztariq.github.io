@@ -20,8 +20,6 @@ description: Prayer (Al-Salah)
 
 ***
 
-{% include snippets/swt.html %}
-
 The second requirement of Islam is Salah. After having true faith in Allah {% include snippets/swt.html %}, the Most High, and the Messenger Muhammad {% include snippets/saws.html %}, the most important pillar of Islam is Prayer (Salah). Salah is the sign of faith (al-Iman). There are forms of prayer in all the divine religions.
 
 The obligatory acts (Fardhs) of Salah are in total twelve.
