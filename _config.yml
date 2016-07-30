@@ -1,6 +1,6 @@
 timezone: Europe/London
 paginate: 20
-markdown: rdiscount
+markdown: kramdown
 permalink: /:year/:month/:day/:title.html
 exclude: ["node_modules", "gulpfile.js", "package.json", "README.md", "build", "CNAME"]
 excerpt_separator: <!--more-->
