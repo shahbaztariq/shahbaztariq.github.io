@@ -1,5 +1,5 @@
 .container, .posts-container, .post-container {
-    padding:3em 1em 0 1em;
+    padding:1em;
 }
 
 .container {
@@ -10,6 +10,10 @@
         -webkit-box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.1);
         box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.1);
         margin:0 0 3em 0;
+        
+        &:last-child {
+            margin-bottom: 0;
+        }
         
         .post-image {
             background: #444;
@@ -135,15 +139,22 @@
         }
     }
     
-    &.post-container .post .post-image {
-        height: 360px;
+    &.post-container {
+        .post {
+            margin-bottom:0;
+            
+            .post-image {
+                height: 360px;
+            }
+        }
     }
+         
 }
 
 @media screen and (min-width: 48em) {
     
     .container, .posts-container, .post-container {
-        padding:3em 1em 0 1em;
+        padding:1em;
     }
     
     .container {
@@ -170,7 +181,7 @@
 @media screen and (min-width: 64em) {
     
     .container, .posts-container, .post-container {
-        padding:3em 2em 0 2em;
+        padding:2em;
     }
     
     .container {
@@ -197,7 +208,7 @@
 @media screen and (min-width: 80em) {
     
     .container, .posts-container, .post-container {
-        padding:3em 2em 0 2em;
+        padding:2em;
     }
     
     .container {
