@@ -1,9 +1,0 @@
-{
-    "id": "ssst",
-    "host": "ssst.local",
-    "docroot": "/var/www/_site",
-    "aliases": [
-        "ssst.local", 
-        "ssst.co"
-    ]
-}

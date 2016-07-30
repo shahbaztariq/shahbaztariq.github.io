@@ -1,6 +1,0 @@
-maintainer       "Shahbaz Tariq"
-maintainer_email "shahbaz@ssst.co"
-license          "All rights reserved"
-description      "Ssst! Vagrant Environment"
-long_description "Provisions the Vagrant development environment for http://ssst.co/"
-version          "0.0.1"

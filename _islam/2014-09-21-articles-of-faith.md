@@ -16,6 +16,8 @@ keywords: islam, faith, belief
 description: Articles Of Faith
 ---
 
+<!--more-->
+
 {% include post/lead.html %}
 
 ***

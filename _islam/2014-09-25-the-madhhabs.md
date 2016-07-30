@@ -17,6 +17,8 @@ keywords: islam, faith, belief
 description: "A Brief Introduction To Madhhabs"
 ---
 
+<!--more-->
+
 {% include post/lead.html %}
 
 ***

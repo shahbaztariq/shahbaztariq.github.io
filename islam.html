@@ -10,11 +10,13 @@ keywords: "islam, hadiths, sunnah, muslim"
         <article class="post post-islam">
         
             {% if post.image %}
-                <div class="post-image lazy-load" onclick="ssst.setLocation('{{ post.url }}');" data-source="{{ post.image }}" data-title="{{ post.title }}"></div>
+                <div class="post-image" onclick="ssst.setLocation('{{ post.url }}');">
+                    <img src="https://dummyimage.com/1280x720/aaaaaa/cccccc.png&amp;text=~" data-src="{{ post.image }}" title="{{ post.title }}" />
+                </div>
             {% endif %}
             
             <header class="post-header">
-                <h3 class="post-date">{{ post.date }}</h3>
+                <h4 class="post-date">{{ post.date | date: "%B %d, %Y" }}</h4>
                 <h2 class="post-title">
                     <a href="{{ post.url }}">{{ post.title }}</a>
                 </h2>

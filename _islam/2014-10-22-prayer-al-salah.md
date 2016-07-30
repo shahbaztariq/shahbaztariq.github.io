@@ -16,6 +16,8 @@ keywords: islam, faith, belief, prayer, salah, namaz, namaaz
 description: Prayer (Al-Salah)
 ---
 
+<!--more-->
+
 {% include post/lead.html %}
 
 ***

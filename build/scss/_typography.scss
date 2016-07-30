@@ -1,0 +1,75 @@
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+    font-family: 'Ubuntu', sans-serif;
+    color: $text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    color:$text-lite;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+    margin-top: 0;
+}
+
+h1 { font-size:2.4em; }
+h2 { font-size:2.0em; }
+h3 { font-size:1.7em; }
+h4 { font-size:1.6em; }
+h5 { font-size:1.5em; }
+h6 { font-size:1.4em; }
+
+p {
+    margin-top:0;
+    margin-bottom: 2em;
+    font-size: 1em;
+}
+
+p:last-child {
+    margin-bottom: 1em;
+}
+
+a {
+    color: $a-colour;
+    text-decoration: none;
+    
+    &:hover {
+        color: $a-colour-hover;
+        text-decoration: underline;
+    }
+    
+    &:active {
+        color: $a-colour-active;
+    }
+    
+    &:visited {
+        color: $a-colour-visited;
+    }
+}
+
+blockquote {
+    border-left: 2px solid $main-colour-accent-dark;
+    padding:0.2em 1em;
+    background: $main-colour-accent;
+    
+    blockquote {
+        background: #fff;
+    }
+}
+
+ol, ul {
+    margin:1em 0 2em 0;
+    
+    li {
+        font-size:1em;
+        margin:0 0 0.5em 0;
+    }
+}

@@ -1,10 +1,12 @@
 timezone: Europe/London
-paginate: 1
+paginate: 20
 markdown: rdiscount
 permalink: /:year/:month/:day/:title.html
-exclude: ["bower.json", "node_modules", "Gruntfile.js", "package.json", "README.md", 'bower_components', 'build', 'vagrant', 'CNAME']
+exclude: ["node_modules", "gulpfile.js", "package.json", "README.md", "build", "CNAME"]
 excerpt_separator: <!--more-->
 base_url: "http://ssst.co"
 collections:
     islam:
         output: true
+gems:
+   - jekyll-paginate

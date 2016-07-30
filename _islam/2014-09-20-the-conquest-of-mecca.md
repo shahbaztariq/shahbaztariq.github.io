@@ -16,6 +16,8 @@ keywords: islam, conquest, mecca, ramadan
 description: The Conquest of Mecca
 ---
 
+<!--more-->
+
 {% include post/lead.html %}
 
 ***

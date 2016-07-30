@@ -1,0 +1,1 @@
+!function(n,i){var t=function(){this.init()};n.extend(t.prototype,{init:function(){n("img").unveil()},setLocation:function(n){window.location.href=n}}),i.ssst=new t}(jQuery,this);

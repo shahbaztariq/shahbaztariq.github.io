@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Shahbaz Tariq | Magento Developer | PHP Web Application Developer"
-description: "Shahbaz Tariq - Magento Developer and Consultant."
-keywords: "magento, magento developer, magento help, php, ecommerce, developer, devops, magento contractor php development, php Developer   "
+description: "Shahbaz Tariq - Professional Magento Developer and Consultant."
+keywords: "magento, magento developer, magento help, php, ecommerce, developer, magento contractor php development, php developer   "
 ---
 
 <section class="container posts-container">
@@ -10,11 +10,13 @@ keywords: "magento, magento developer, magento help, php, ecommerce, developer, 
         <article class="post">
         
             {% if post.image %}
-                <div class="post-image lazy-load" onclick="ssst.setLocation('{{ post.url }}');" data-source="{{ post.image }}" data-title="{{ post.title }}"></div>
+                <div class="post-image lazy-load" onclick="ssst.setLocation('{{ post.url }}');">
+                    <img src="https://dummyimage.com/1280x720/aaaaaa/cccccc.png&amp;text=~" data-src="{{ post.image }}" title="{{ post.title }}" />
+                </div>
             {% endif %}
             
             <header class="post-header">
-                <h3 class="post-date">{{ post.date | date: "%B %d, %Y" }}</h3>
+                <h4 class="post-date">{{ post.date | date: "%B %d, %Y" }}</h4>
                 <h2 class="post-title">
                     <a href="{{ post.url }}">{{ post.title }}</a>
                 </h2>

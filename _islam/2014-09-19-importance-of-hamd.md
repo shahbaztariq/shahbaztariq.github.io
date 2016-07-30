@@ -17,6 +17,8 @@ keywords: islam, hamd, muslim, alhamdulillah, alhumdulillah, praising, thankful,
 description: Importance of Hamd (praise), being thankful to Allah in the good and the bad times.
 ---
 
+<!--more-->
+
 {% include post/lead.html %}
 
 ***

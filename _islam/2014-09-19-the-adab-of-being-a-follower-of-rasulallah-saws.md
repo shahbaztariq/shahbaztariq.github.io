@@ -16,6 +16,8 @@ keywords: islam, follower, believer, rasool, rasulallah
 description: The qualities and etiquette of being a follow of our Prophet (SAWS)
 ---
 
+<!--more-->
+
 {% include post/lead.html %}
 
 ***

@@ -16,6 +16,8 @@ keywords: islam, faith, belief, imaan
 description: The Parts Of Imaan
 ---
 
+<!--more-->
+
 {% include post/lead.html %}
 
 ***
