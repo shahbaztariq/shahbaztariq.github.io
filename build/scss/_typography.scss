@@ -4,12 +4,16 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 500;
     text-transform: capitalize;
     margin-top: 2em;
     margin-bottom: 0.5em;
-    color:$text-lite;
 }
+
+h1 + h2 { margin-top:0.5em; }
+h2 + h3 { margin-top:0.5em; }
+h3 + h4 { margin-top:0.5em; }
+h4 + h5 { margin-top:0.5em; }
+h5 + h6 { margin-top:0.5em; }
 
 h1:first-child,
 h2:first-child,
@@ -20,12 +24,12 @@ h6:first-child {
     margin-top: 0;
 }
 
-h1 { font-size:2.4em; }
-h2 { font-size:2.0em; }
-h3 { font-size:1.7em; }
-h4 { font-size:1.6em; }
-h5 { font-size:1.5em; }
-h6 { font-size:1.4em; }
+h1 { font-size:2.4em; font-weight: 500; color:$text;        }
+h2 { font-size:2.0em; font-weight: 500; color:$text-lite;   }
+h3 { font-size:1.7em; font-weight: 400; color:$text-liter;  }
+h4 { font-size:1.6em; font-weight: 400; color:$text-litest; }
+h5 { font-size:1.5em; font-weight: 400; color:$text-litest; }
+h6 { font-size:1.4em; font-weight: 400; color:$text-litest; }
 
 p {
     margin-top:0;
@@ -57,11 +61,12 @@ a {
 
 blockquote {
     border-left: 2px solid $main-colour-accent-dark;
-    padding:0.2em 1em;
+    padding:1.5em;
+    margin:2em;
     background: $main-colour-accent;
     
-    blockquote {
-        background: #fff;
+    p:last-child {
+        margin-bottom:0;
     }
 }
 
