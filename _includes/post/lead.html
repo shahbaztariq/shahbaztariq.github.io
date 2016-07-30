@@ -1,2 +1,2 @@
 <p class="lead">{{ page.lead }}</p>
-<cite class="citation">{{ page.citation }}</cite>
+<cite class="citation">{% if page.quran_citation %}<a target="_blank" href="{{ page.quran_citation }}">{{ page.citation }}</a>{% else %}{{ page.citation }}{% endif %}</cite>

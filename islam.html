@@ -35,7 +35,15 @@ keywords: "islam, hadiths, sunnah, muslim"
                 {% endif %}
                 
                 {% if post.citation %}
-                    <cite class="citation">{{ post.citation }}</cite>
+                    <cite class="citation">
+                        {% if post.quran_citation %}
+                            <a target="_blank" href="{{ post.quran_citation }}">
+                                {{ post.citation }}
+                            </a>
+                        {% else %}
+                            {{ post.citation }}
+                        {% endif %}
+                    </cite>
                 {% endif %}
                 
                 <p class="post-read-more">
