@@ -23,7 +23,7 @@ description: Prayer (Al-Salah)
 
 ***
 
-Hazrat Abu-Darda {% include snippets/ra.html %} narrated Once the Prophet {% include snippets/saws.html %} delivered a short Khutbah (sermon). When he's finished with his Khutbah he said
+Hazrat Abu-Darda {% include snippets/ra.html %} narrated Once the Prophet {% include snippets/saws.html %} delivered a short Khutbah (sermon). When he's finished with his Khutbah he said:
 
 > Stand up, O Abu Bakr! Deliver a Khutbah as well.
 
