@@ -6,8 +6,10 @@
         <section class="container post-container">
             <article class="post post-view">
                 {% if page.image %}
-                    <div class="post-image liquidify" onclick="ssst.setLocation('{{ page.url }}');">
-                        <img src="{{ page.image }}" title="{{ page.title }}" alt="{{ page.title }}" />
+                    <div class="post-image">
+                        <a href="{{ page.url }}">
+                            <img src="{{ page.image }}" title="{{ page.title }}" alt="{{ page.title }}" />
+                        </a>
                     </div>
                 {% endif %}
                 
