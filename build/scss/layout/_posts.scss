@@ -37,8 +37,6 @@
         }
         
         .post-header {
-            padding: 0 1em;
-            
             .post-date {
                 text-align: center;
                 color: $text-liter;
@@ -67,7 +65,7 @@
             }
         }
         
-        .post-excerpt, .post-content, .post-collateral {
+        .post-header, .post-excerpt, .post-content, .post-collateral {
             padding:0em 1em;
         }
         
@@ -148,7 +146,12 @@
             }
         }
     }
-         
+    
+    &.cv-container {
+        .post {
+            padding:2em 0;
+        }
+    }
 }
 
 @media screen and (min-width: 48em) {
@@ -159,11 +162,7 @@
     
     .container {
         .post {
-            .post-header {
-                padding: 0 4em;
-            }
-            
-            .post-excerpt, .post-content, .post-collateral {
+            .post-header, .post-excerpt, .post-content, .post-collateral {
                 padding:0em 4em;
             }
             
@@ -186,11 +185,7 @@
     
     .container {
         .post {
-            .post-header {
-                padding: 0 6em;
-            }
-            
-            .post-excerpt, .post-content, .post-collateral {
+            .post-header, .post-excerpt, .post-content, .post-collateral {
                 padding:0em 6em;
             }
             
@@ -213,11 +208,7 @@
     
     .container {
         .post {
-            .post-header {
-                padding: 0 8em;
-            }
-            
-            .post-excerpt, .post-content, .post-collateral {
+            .post-header, .post-excerpt, .post-content, .post-collateral {
                 padding:0em 8em;
             }
             
