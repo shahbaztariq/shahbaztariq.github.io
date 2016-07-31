@@ -6,7 +6,7 @@ lead: "[Mention, O Muhammad], the Day We will call forth every people with their
 citation: "Surah Isra, Ayah 71"
 quran_citation: "http://quran.com/17/71"
 
-image: "/assets/images/islam/wudhu.jpg"
+image: "/assets/images/islam/masjid-nabi.jpg"
 
 title: "For Everything, He, was an example"
 
