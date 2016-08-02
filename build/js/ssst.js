@@ -15,6 +15,8 @@
             
             // lazy load images
             $('img').unveil();
+    
+            $('.e').html(String.fromCharCode(83, 72, 65, 72, 66, 65, 90, 64, 83, 83, 83, 84, 46, 67, 79).toLowerCase());
         },
         
         /**
@@ -30,4 +32,4 @@
     });
     
     global.ssst = new ssst();
-}(jQuery, this));
+}(jQuery, window));
