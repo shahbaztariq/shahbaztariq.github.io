@@ -3,6 +3,7 @@
         .cv-post-image {
             cursor: default;
             height: auto;
+            background: none;
 
             .cv-image {
                 width: 100%;
@@ -61,17 +62,15 @@
             padding-bottom: 2em;
             
             .section-header {
-                line-height: 2em;
-                
-                border-bottom: 2px solid $text-litest;
+                padding-bottom: 0.3em;
+                border-bottom: 1px solid $text-litest;
             }
             
             .entry {
-                padding: 2em;
+                margin:0 0 2em 0;
                 
                 .role-details {
-                    padding:0 2em 0 0;
-                    text-align: right;
+                    
                     
                     h4, h5 {
                         margin:0 0 0.2em 0;
@@ -106,11 +105,107 @@
                 }
                 
                 .role-responsibilities {
+                    padding:1em;
+                    background: none;
+                    
                     ul {
                         margin:0;
                         
                         li {
                             margin: 0 0 0.75em 0;
+                            
+                            ul {
+                                margin:0.75em 0 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 64em) {
+    .cv-container {
+        .cv-post {
+            .cv-post-image {
+                .cv-image {
+                    img {
+                    }
+                }
+
+                .cv-info {
+                    .post-title {
+                    }
+
+                    .post-subtitle {
+                    }
+
+                    dl {
+                        dt, dd {
+                            &:first-child, &:first-child + dd {
+                            }
+                        }
+
+                        dt {
+                        }
+
+                        dd {
+                        }
+                    }
+                }
+            }
+
+            .cv-post-content {
+                .section-header {
+                }
+
+                .entry {
+                    padding: 2em;
+                    
+                    .role-details {
+                        padding:0 2em 0 0;
+                        text-align: right;
+                        
+                        h4, h5 {
+                            
+                        }
+
+                        .position {
+                        }
+
+                        .position-type, .employer {
+                        }
+
+                        .date {
+
+                            .date-from {
+                            }
+
+                            .date-sep {
+                            }
+
+                            .date-to {
+                            }
+                        }
+                    }
+
+                    .role-responsibilities {
+                        padding:2em;
+                        border:none;
+                        border-left:2px solid #ddd;
+                        background: none;
+
+                        ul {
+                            margin:0;
+
+                            li {
+                                margin: 0 0 0.75em 0;
+
+                                ul {
+                                    margin:0.75em 0 0 0;
+                                }
+                            }
                         }
                     }
                 }
